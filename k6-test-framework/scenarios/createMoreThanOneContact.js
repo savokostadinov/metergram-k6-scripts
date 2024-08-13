@@ -10,6 +10,7 @@ export let options = {
         'http_req_duration{status:200}' : ['p(95)<500'],
         'success_rate' : ['rate>0.95'],
     },
+    duration: "1m"
 };
 
 export default function () {
